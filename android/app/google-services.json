@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319276345727",
+    "project_id": "foom-34732",
+    "storage_bucket": "foom-34732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319276345727:android:ad3e12addd332440a2524a",
+        "android_client_info": {
+          "package_name": "com.foom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319276345727-aovi0eu2hotsve9puvmcmi0rrhi53mi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0yP5cqsx9VVpE-gbSuXQyxpGlV_nlDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319276345727-aovi0eu2hotsve9puvmcmi0rrhi53mi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
