@@ -89,6 +89,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
         });
   }
 
+  void logout() async {
+     await FirebaseAuth.instance.signOut();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -147,6 +150,25 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             child: Center(
                               child: Text(
                                 "Edit Profile",
+                                style: montserratStyle(17, Colors.white),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(
+                height: 30,
+              ),
+                            InkWell(
+                          onTap: logout,
+                          child: Container(
+                            width: MediaQuery.of(context).size.width / 2,
+                            height: 40,
+                            decoration: BoxDecoration(
+                                gradient: LinearGradient(
+                                    colors: GradientColors.juicyOrange)),
+                            child: Center(
+                              child: Text(
+                                "Logout",
                                 style: montserratStyle(17, Colors.white),
                               ),
                             ),

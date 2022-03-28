@@ -132,6 +132,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     child: TextField(
                       controller: _passwordController,
                       style: montserratStyle(18, Colors.black),
+                      obscureText: true,
                       decoration: InputDecoration(
                         hintText: "Password",
                         prefixIcon: Icon(Icons.lock),

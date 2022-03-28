@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.foom">
+    package="com.foom" xmlns:tools="http://schemas.android.com/tools">
    <application
-        android:label="com.foom"
+        tools:replace="android:label"
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="foom"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

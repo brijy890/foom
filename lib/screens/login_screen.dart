@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
       await FirebaseAuth.instance.signInWithEmailAndPassword(
           email: _emailController.text, password: _passwordController.text);
       Navigator.of(context).popUntil((route){
-        return ctr++ == 2;
+        return ctr++ == 1;
       });
       Navigator.of(context).pop();
     } catch (err) {
@@ -106,6 +106,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: TextField(
                       controller: _passwordController,
                       style: montserratStyle(18, Colors.black),
+                      obscureText: true,
                       decoration: InputDecoration(
                         hintText: "Password",
                         prefixIcon: Icon(Icons.lock),

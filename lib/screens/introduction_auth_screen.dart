@@ -22,11 +22,7 @@ class _IntroductionAuthScreenState extends State<IntroductionAuthScreen> {
             titleTextStyle: montserratStyle(20, Colors.black),
           ),
           image: Center(
-            child: Image(
-              image: NetworkImage(
-                "https://lh3.googleusercontent.com/proxy/kBgUJc89lN9C7ZYOFhcNnD_yuutW4PHVPY1SjJRRa6SL8bRt-tKM2Sbq-sY8FVkwS77rIQWd5NpiwEfcNhX94cQoE0VqWMw",
-              ),
-            ),
+              child: Image.asset('images/welcome.jpeg', height: 175),
           ),
         ),
         PageViewModel(
@@ -38,11 +34,7 @@ class _IntroductionAuthScreenState extends State<IntroductionAuthScreen> {
             titleTextStyle: montserratStyle(20, Colors.black),
           ),
           image: Center(
-            child: Image(
-              image: NetworkImage(
-                "https://static01.nyt.com/images/2020/03/25/business/25Techfix-illo/25Techfix-illo-mobileMasterAt3x.jpg",
-              ),
-            ),
+              child: Image.asset('images/conference.jpeg', height: 175),
           ),
         ),
         PageViewModel(
@@ -53,11 +45,7 @@ class _IntroductionAuthScreenState extends State<IntroductionAuthScreen> {
             titleTextStyle: montserratStyle(20, Colors.black),
           ),
           image: Center(
-            child: Image(
-              image: NetworkImage(
-                "https://www.pngitem.com/pimgs/m/74-745197_cyber-security-png-png-download-computer-security-png.png",
-              ),
-            ),
+              child: Image.asset('images/secure.jpeg', height: 175),
           ),
         ),
       ],
